@@ -1,0 +1,22 @@
+{
+  "total": 4000,
+  "label_distribution": {
+    "遗漏式欺骗": 3000,
+    "正常": 1000
+  },
+  "omission_distribution": {
+    "利益相关者遗漏": 500,
+    "无": 1000,
+    "背景遗漏": 500,
+    "责任遗漏": 500,
+    "复杂遗漏": 500,
+    "比较遗漏": 500,
+    "影响遗漏": 500
+  },
+  "source_distribution": {
+    "usr256864/averitec": 1000,
+    "ComplexDataLab/Misinfo_Datasets": 1000,
+    "pszemraj/multi_fc": 1000,
+    "fever/fever": 1000
+  }
+}

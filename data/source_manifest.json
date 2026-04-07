@@ -1,0 +1,46 @@
+{
+  "seed": 20260327,
+  "source_datasets": [
+    {
+      "dataset": "usr256864/averitec",
+      "role": "primary",
+      "usage": [
+        "背景遗漏",
+        "影响遗漏",
+        "责任遗漏",
+        "利益相关者遗漏"
+      ],
+      "note": "任务形式参考，适合 claim + evidence 对照输入。"
+    },
+    {
+      "dataset": "pszemraj/multi_fc",
+      "role": "primary",
+      "usage": [
+        "背景遗漏",
+        "责任遗漏",
+        "利益相关者遗漏"
+      ],
+      "note": "多题材事实核查数据，适合政策、社会、公共议题题材分布参考。"
+    },
+    {
+      "dataset": "ComplexDataLab/Misinfo_Datasets",
+      "role": "secondary",
+      "usage": [
+        "背景遗漏",
+        "复杂遗漏",
+        "比较遗漏",
+        "影响遗漏"
+      ],
+      "note": "misinformation 数据池，用作题材补样和形式参考。"
+    },
+    {
+      "dataset": "fever/fever",
+      "role": "reference",
+      "usage": [
+        "正常"
+      ],
+      "note": "仅用作负例风格与 claim/evidence 结构参考。"
+    }
+  ],
+  "build_note": "当前版本使用 Hugging Face 数据集的任务形式、题材分布和字段结构作为构建参考，并生成统一的中文题目数据。"
+}
