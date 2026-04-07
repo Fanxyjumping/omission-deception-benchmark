@@ -246,7 +246,9 @@ Suggestions on dataset construction, taxonomy design, or evaluation protocol are
 
 ## Related Work
 
-This benchmark is partly inspired by prior work on omission-based deception, especially studies that analyze how missing contextual, comparative, consequential, and stakeholder-related information can distort readers' interpretations. In particular, the omission taxonomy used in this project is informed by the following reference:
+The problem setting and omission-type design of this task were inspired by prior work on omission-based deception. This repository does not aim to strictly reproduce the original study; instead, it adapts the underlying idea into a structured Chinese benchmark-style task for LLM fine-tuning and omission analysis.
+
+Reference:
 
 - [arXiv:2512.01728](https://arxiv.org/abs/2512.01728)
 
